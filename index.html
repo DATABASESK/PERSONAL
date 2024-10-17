@@ -10,23 +10,17 @@
             margin: 0;
             padding: 0;
             text-align: center;
+            background-color: black; /* Set background to black */
+            color: white; /* Set text color to white */
         }
 
-        /* Black overlay that covers the top */
-        .header-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 10px; /* Adjust this value to cover more of the top if needed */
-            background-color: black;
-            z-index: 1000;
-            opacity: 0.8; /* Make the overlay slightly transparent */
-        }
-
-        /* Content below the overlay */
+        /* Content */
         .content {
-            margin-top: 180px; /* To prevent content from overlapping with the header */
+            margin-top: 180px; /* Adjust as needed */
+        }
+
+        h1, p {
+            color: white; /* Ensure headings and paragraphs are white */
         }
 
         .button {
@@ -47,9 +41,6 @@
     </style>
 </head>
 <body>
-    <!-- Black overlay header -->
-    <div class="header-overlay"></div>
-
     <div class="content">
         <h1>Watch Star Vijay Live</h1>
         <p>Click the button below to watch Star Vijay live in this page.</p>
